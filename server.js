@@ -19,16 +19,6 @@ const players = [
 
 const brokenNames = ["Karangz", "TrackerPad", "TarJay", "SonOfLawrence"];
 
-const getPlayerData = () => {
-  return fetch(`${host}${filter}`, {headers: headers})
-    .then(response => response.json())
-    .then(jsonResponse => {
-        console.log(jsonResponse.data);
-        return jsonResponse.data;
-    })
-    .catch(error => console.error(error))
-}
-
 async function getPlayerDataAsync() {
   let playerData = [];
   const host = 'https://api.playbattlegrounds.com/shards/pc-eu/players?filter[playerNames]=';
