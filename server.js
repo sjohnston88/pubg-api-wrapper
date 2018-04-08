@@ -1,7 +1,6 @@
 
 const fetch = require('node-fetch');
 const express = require('express');
-const https = require('https');
 const secrets = require('./secrets.json');
 const app = express();
 
