@@ -6,13 +6,13 @@ const app = express();
 
 const players = [
   [
-    "NunquamParatus", "Yangeance", "SonOfLawrence",
+    "NunquamParatus", "Yangeance", "Potts",
   ],[
-    "Shanners", "TrackerPad", "TarJay",
+    "Shanners", "ShaN-MaN", "LukeOcean",
   ],[
-    "Pundrick", "Kathoga", "LukeOcean",
+    "Pundrick", "Kathoga", "TarJay",
   ],[
-    "Potts", "Karangz", "ShaN-MaN"
+    "SonOfLawrence", "Karangz", "TrackerPad"
   ]
 ];
 
