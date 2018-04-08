@@ -33,7 +33,7 @@ async function getPlayerDataAsync() {
     console.log(data);
     playerData.push(data)
   }
-  return [playerData]
+  return playerData
 }
 
 app.get('/api/players', async function (req, res, next) {
